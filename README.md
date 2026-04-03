@@ -74,7 +74,7 @@ This lab demonstrates how ARP spoofing can be used to perform MITM attacks on un
 
 This repository will also include complementary documents that expand on the concepts demonstrated in this lab, including:
 
-- a detailed explanation of how VPNs work at a protocol level  
+- a detailed explanation of how VPNs work. https://github.com/venancio12099/VPN-vs-MitMattack/blob/main/VPN_Deep_Analysis.md  
 - an in‑depth breakdown of ARP spoofing and MITM techniques  
 - additional defensive strategies commonly used in modern networks  
 
