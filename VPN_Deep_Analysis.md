@@ -23,6 +23,7 @@ Result: anyone undesired user on the local network (e.g., ARP spoofing attacker,
 ## 3. Different VPN models
 
 Remote access VPN
+
 Typically used by individuals (employees, admins...) connecting from public networks. This architecture protect single device’s traffic, giving it secure access to an internal corporate network.  
 Some common scenarios of usage:  
   - Remote work  
@@ -30,12 +31,14 @@ Some common scenarios of usage:
   - Secure access to internal web apps, file shares, or databases   
 
 Site‑to‑site VPN
+
 Mainly used by organizations connecting entire networks to protect traffic between two or more LANs over the Internet. (example: HQ ↔ branch office, office ↔ data center).  raffic between two or more LANs over the Internet.  
 Typical use scenarios:  
   - Connecting multiple offices as if they were on the same internal network  
   - Secure communication between partners or suppliers (extranet VPN)   
 
 Consumer VPN services
+
 This might be the most popular VPN architecture among individual users, access is provided by subscribing to a commercial VPN provider.Is used to encrypt traffic between the user and the VPN provider’s servers and masks the user’s public IP and apparent location.  
 Users might use it:  
   - Get extra privacy on public Wifis/  
@@ -46,6 +49,7 @@ Users might use it:
 On this point I would like to have an overview to deeply understand both archictectures, public and private VPNs. This might help you to address benefits and weaknesses of each model and help you choose the correct for the required scenario.
 
 Public VPN (consumer VPN service)  
+
 Many casual users believe that using a VPN automatically guarantees privacy and anonymity, without fully understanding what a VPN provider actually is. 
 When you subscribe to a public VPN service, the provider becomes the entity that handles your traffic. They know who you are, they terminate your encrypted tunnel, and they perform all outbound requests on your behalf.
 This does hide your real IP address and can be useful for bypassing geo‑restrictions or protecting yourself on untrusted networks, but it does not mean complete anonymity.
@@ -65,7 +69,8 @@ For many users, this combination of privacy, convenience, and location flexibili
 But it is important to understand that a public VPN is not a magic anonymity tool, is a service run by a company, and your privacy ultimately depends on how much you trust that company.
 
 
-Private VPN (self‑hosted) 
+Private VPN (self‑hosted)
+
 A private VPN is deployed and managed by organizations or individual users with the goal of protecting their communications over untrusted transport methods such as the public Internet. 
 These VPN models are typically owned and fully controlled by the organization that operates them. For companies handling sensitive data, a private VPN is an essential tool because it allows complete freedom to define security mechanisms, authentication methods, access permissions....
 This level of control ensures that internal security policies are properly enforced and that all activity can be monitored according to the organization’s compliance requirements.
