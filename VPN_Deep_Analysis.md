@@ -44,11 +44,11 @@ Users might use it:
   - Get extra privacy on public Wifis/  
   - Bypassing geo‑restrictions.     
 
-## 4. Public vs Private VPNs
+# 4. Public vs Private VPNs
 
 On this point I would like to have an overview to deeply understand both archictectures, public and private VPNs. This might help you to address benefits and weaknesses of each model and help you choose the correct for the required scenario.
 
-Public VPN (consumer VPN service)  
+# Public VPN (consumer VPN service)  
 
 Many casual users believe that using a VPN automatically guarantees privacy and anonymity, without fully understanding what a VPN provider actually is. 
 When you subscribe to a public VPN service, the provider becomes the entity that handles your traffic. They know who you are, they terminate your encrypted tunnel, and they perform all outbound requests on your behalf.
@@ -69,7 +69,7 @@ For many users, this combination of privacy, convenience, and location flexibili
 But it is important to understand that a public VPN is not a magic anonymity tool, is a service run by a company, and your privacy ultimately depends on how much you trust that company.
 
 
-Private VPN (self‑hosted)
+# Private VPN (self‑hosted)
 
 A private VPN is deployed and managed by organizations or individual users with the goal of protecting their communications over untrusted transport methods such as the public Internet. 
 These VPN models are typically owned and fully controlled by the organization that operates them. For companies handling sensitive data, a private VPN is an essential tool because it allows complete freedom to define security mechanisms, authentication methods, access permissions....
