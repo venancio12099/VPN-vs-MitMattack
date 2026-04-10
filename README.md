@@ -70,16 +70,6 @@ Looking deeper into the ISAKMP packets confirm that the contents are encrypted a
 
 This lab demonstrates how ARP spoofing can be used to perform MITM attacks on unencrypted HTTP traffic, and how a VPN effectively neutralizes the attack by encrypting all traffic before it reaches the local network.
 
-# Additional Documentation
-
-This repository will also include complementary documents that expand on the concepts demonstrated in this lab, including:
-
-- a detailed explanation of how VPNs work. https://github.com/venancio12099/VPN-vs-MitMattack/blob/main/VPN_Deep_Analysis.md  
-- an in‑depth breakdown of ARP spoofing and MITM techniques  
-- additional defensive strategies commonly used in modern networks  
-
-These resources are intended to provide deeper context and help readers understand both the attack surface and the available mitigation options.
-
 
 
 
